@@ -1,0 +1,50 @@
+.about{width: 80%;
+	 background-color: #cccccc;
+  background-image: linear-gradient(#003399,#00e699);
+	margin: 30px auto;
+    border-radius: 12px;
+    border: double;
+    box-shadow: 0 4px 8px 0 rgb(54, 0, 71);
+ }
+ .myDetails{
+	 padding: 25px 35px;
+	border-bottom: 2px solid  #006699;
+	background: #ededed;
+ }
+ 
+li.me::first-letter{
+	 font-size: 200%;
+  color: #8A2BE2
+ }
+ 
+ .img{
+	
+	height: 160px;
+	border-radius:60px;
+	margin-top:15px;
+	width: 12.5%;
+	float: right;
+	margin-right: 30px;
+ }
+ 
+
+
+h2{margin-left: 10px;}
+p{margin-left: 10px;}
+
+h2::first-letter {
+  font-size: 200%;
+  
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+body{
+	font-family: 'Lato', helvetica, arial, sans-serif; 
+	 font-size: 16px; 
+}
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
